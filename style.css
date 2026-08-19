@@ -1,0 +1,51 @@
+*{
+    font-size: 16px;
+    margin:0;
+    padding:0;
+
+
+}
+body{
+   /* border: .2rem solid rgb(19, 175, 149);*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+   /* border: 0.2em solid red;*/
+    height: 4rem;
+    display: flex;
+    padding: o.5rem;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+}
+.logo{
+   /* border:2rem solid orange;*/
+    background-color: aquamarine;
+    font-weight: bold;
+    width: 1rem;
+   flex: 1;
+
+}
+section {
+    border: .2rem solid blue;
+    display: flex; 
+}
+nav{
+    border: .2rem solid purple;
+    width : 10rem; 
+    background-color: antiquewhite;
+    padding: o.5rem;
+}
+main{
+     border: .2rem solid rgb(224, 204, 224);
+     flex: 1;
+     padding: 0.5;
+}
+footer{
+     border: .2rem solid rgb(22, 76, 78);
+    height:4rem;
+padding: 0.5rem;
+background-color: black;
+color: aliceblue;}
