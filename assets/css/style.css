@@ -1,7 +1,10 @@
+@import url("cartao.css");
+
 *{
     font-size: 16px;
-    margin:0;
-    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0rem;
+    padding:0rem;
 
 
 }
@@ -18,19 +21,31 @@ header{
     padding: o.5rem;
     align-items: center;
     align-content: center;
-    background-color: aqua;
+    padding: .5rem;
+    background-color: rgb(30, 32, 32);
+    color: rgb(240, 220, 195);
 }
 .logo{
-   /* border:2rem solid orange;*/
-    background-color: aquamarine;
+   border:2rem solid rgb(30, 63, 155);
+    background-color: rgb(20, 44, 110);
+    color: antiquewhite;
     font-weight: bold;
+    border-radius: 100%;
     width: 1rem;
+    height: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
    flex: 1;
 
 }
 section {
-    border: .2rem solid blue;
+    /*border: .2rem solid blue;*/
     display: flex; 
+    flex: 1;
 }
 nav{
     border: .2rem solid purple;
