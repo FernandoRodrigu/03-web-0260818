@@ -33,7 +33,7 @@ header{
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: .7rem;
+    padding: .07rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +52,15 @@ nav{
     width : 10rem; 
     background-color: antiquewhite;
     padding: o.5rem;
+}
+.conteainer{
+    display:flex;
+    flex:1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap:.8rem;
+    justify-content: right;
+
 }
 main{
      border: .2rem solid rgb(224, 204, 224);
