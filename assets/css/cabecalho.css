@@ -1,0 +1,28 @@
+header{
+   /* border: 0.2em solid red;*/
+    height: 4rem;
+    display: flex;
+    padding: o.5rem;
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+    background-color: rgb(30, 32, 32);
+    color: rgb(240, 220, 195);
+}
+.logo{
+   border:2rem solid rgb(30, 63, 155);
+    background-color: rgb(20, 44, 110);
+    color: antiquewhite;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .07rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+   flex: 1;
+
+}
