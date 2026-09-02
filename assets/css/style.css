@@ -93,6 +93,9 @@ font: size 1.2em;
 color: bisque;
 }
 .menu-hamburguer:hover i {
-    color: red;
+    color: #eee;
 
+}
+.menu-hamburguer i:hover{
+    color: white;
 }
